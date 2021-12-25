@@ -3,10 +3,11 @@ import "./Item.css"
 
 class Item extends React.Component {
   render = () => {
+    const {image, title} = this.props;
     return (
       <div>
-        <img src={this.props.image} alt="" />
-        <h1>{this.props.title}</h1>
+        <img src={image} alt="" />
+        <h1>{title}</h1>
       </div>
     )
   }

@@ -43,10 +43,6 @@ class Main extends React.Component {
         <Button type="no" id="no" add={this.addTo} />
         <Counter count={this.state.yes} />
         <Counter count={this.state.no} />
-        {/* <Item
-          image={DATA[this.state.img].url}
-          title={DATA[this.state.img].description}
-        /> */}
         {this.show()}
       </div>
     );
